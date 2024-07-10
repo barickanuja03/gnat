@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: black;
+}
+
+body {
+  font-size: 10px;
+  width: 100%;
+  overflow: hidden;
+}
+
+.about-section {
+  height: auto;
+  width: 100%;
+  margin-top: 2rem;
+}
+.about-section .heading {
+  font-size: 3rem;
+  color: rgb(214, 36, 104);
+  padding: 0rem 2rem;
+}
+.about-section .left-side {
+  aspect-ratio: 16/9;
+  width: 100%;
+  margin-right: 7rem;
+}
+.about-section .left-side p {
+  color: white;
+  font-size: 1.2rem;
+  padding: 1.9rem;
+}
+.about-section .right-side {
+  width: 100%;
+  aspect-ratio: 16/9;
+  background-color: rgb(1, 60, 152);
+}
+.about-section .right-side img {
+  width: 100%;
+  aspect-ratio: 16/9;
+  opacity: 0.4;
+  -o-object-fit: cover;
+     object-fit: cover;
+}/*# sourceMappingURL=gnat.css.map */
